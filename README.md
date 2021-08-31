@@ -1,6 +1,6 @@
 # Adam Gradient Descent implementation
 In these short codes I implemented an example of the Adam gradient descent optimization algorithm.
-The optimization is done on a simple cost function `f(x,y) = x^2 + y^2`.
+The optimization is done on a simple convex cost function `f(x,y) = x^2 + y^2`.
 
 ## Usage
 `python3 space_2d.py`	-> Plot the mathematical space in 2D <br>
