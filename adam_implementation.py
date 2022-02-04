@@ -9,7 +9,7 @@ from space_2d import plot2d
 
 
 def derivative(x, y):
-    '''Derivata della funzione obiettivo, z'=2x + 2y'''
+    '''Gradient of the covnex Objective function: z'=2x + 2y'''
     return asarray([x * 2.0, y*2.0])
 
 def adam(objective, derivative, bounds, n_iter, alpha, beta1, beta2, eps=1e-8):
